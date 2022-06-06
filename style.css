@@ -1,0 +1,167 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+body
+{
+	font-family:sans_serif;
+	background-image: linear-gradient(to right,#A9F0EA,#21ABA1);
+}
+
+
+/*-------NAVIGATION BAR------*/
+
+
+#nav-bar
+{
+	position: sticky;
+	top: 0;                  <! navigation bar sta sticky sus-->
+	z-index: 10;
+}
+.navbar
+{
+	background-image: linear-gradient(to right,#A9F0EA,#21ABA1);
+	padding:0 !important;
+}
+.navbar-brand img
+{
+	height: 60px;
+	padding-left: 20 px;
+}
+.navbar-nav li
+{
+	padding: 0 10px;
+}
+.navbar-nav li a
+{
+	color:#fff !important;
+	font-weight: 600;
+	float: right;
+	text-align: left;
+}
+.fa-bars
+{
+	color:#fff;
+	font-sized: 30px !important;
+}
+.navbar-toggler
+{
+	outline:none !important;
+}
+
+
+/*--------------INTRODUCERE-------*/
+
+#banner
+{
+	background-image: linear-gradient(to right,#A9F0EA,#21ABA1);
+	color: #fff;
+	padding-top: 5%;
+}
+.promo-title
+{
+	font-size:40px;
+	font-weight: 600px;
+	margin-top: 100px;
+}
+#banner a
+{
+	color:#fff;
+	text-decoration:none;
+}
+
+
+/*---------REVIEWS------*/
+
+
+#reviews
+{
+	margin: 100px 0;
+	
+}
+.reviews
+{
+	border-left: 4px solid #31a8a0;
+	margin-top:50px;
+	margin-bottom:50px;
+}
+.title
+{
+	color:#fff;
+	margin-bottom:50px;
+}
+.reviews img
+{
+	height: 60px;
+	width: 60px;
+	border-radius: 50%;
+	margin: 0 10px;
+}
+.user-details
+{
+	display: inline-block;
+	font-size: 12px;
+}
+
+
+/*-----------Contact-----*/
+
+#social-media
+{
+	background: #A9F0EA;
+	padding: 100px;
+}
+#social-media padding
+{
+	font-size:36px;
+	font-weight: 600;
+	margin-bottom:30px;
+	
+}
+.title
+{
+	color:#fff;
+	margin-bottom:50px;
+}
+.social-icons img
+{
+	width: 60px;
+	transition: 0.5s;
+}
+.social-icons a:hover img
+{
+	transform: translateY(-10px);
+}
+
+
+/*--------FOOTER----*/
+
+#footer
+{
+	
+	color: #fff;
+	
+}
+
+.footer-box
+{
+	padding: 20px;
+	
+}
+.bottom-img
+{
+	width: 100%;
+	height: 50%;
+}
+.copyright
+{
+	margin-bottom:0;
+	paddin-bottom: 20px;
+	text-align:center;
+	
+}
+
+
+
+
+

@@ -1,7 +1,9 @@
 
+
 * {
 	margin: 0;
 	padding: 0;
+
   }
 
 body
@@ -144,7 +146,6 @@ body
 
 #footer
 {
-	
 	color: #fff;
 	
 }
@@ -159,10 +160,12 @@ body
 	width: 100%;
 	height: 50%;
 }
-.copyright
+.title 
 {
 	margin-bottom:0;
 	paddin-bottom: 20px;
 	text-align:center;
 	
 }
+
+

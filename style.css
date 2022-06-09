@@ -147,25 +147,37 @@ body
 #footer
 {
 	color: #fff;
+	margin-top:50px;
 	
 }
 
 .footer-box
 {
-	padding: 20px;
 	
+	margin-top:50px;
+	padding: 20px;
+	text-decoration: none;
 }
 .bottom-img
 {
 	width: 100%;
-	height: 50%;
+    height: 150px;
 }
-.title 
-{
-	margin-bottom:0;
-	paddin-bottom: 20px;
-	text-align:center;
+
+/*----CSS FOR Registration Page-----*/
+
+.panel{
 	
+	margin-top:50px;
+	border-color: #323334;
 }
-
-
+.panel > .panel-heading {
+    
+    background-image: none;
+    background-color: #323334;
+}
+.btn
+{
+	
+   background-color: #323334;
+}

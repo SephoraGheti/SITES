@@ -15,6 +15,7 @@ body {
     align-items: center;
     flex-direction: column;
     background: #A9F0EA;
+
 }
 
 .wrapper {
@@ -24,6 +25,8 @@ body {
     width: 600px;
     min-height: 400px;
     margin: 20px 0;
+    background-image: linear-gradient(to right,#A9F0EA,#088a80);
+
 }
 
 .wrapper .row {

@@ -2,9 +2,9 @@
 
 include 'config.php';
 
-error_reporting(0); // For not showing any error
+error_reporting(0); // Don't show any error
 
-if (isset($_POST['submit'])) { // Check press or not Post Comment Button
+if (isset($_POST['submit'])) { // Check press or not Button
 	$name = $_POST['name']; // Get Name from form
 	$email = $_POST['email']; // Get Email from form
 	$comment = $_POST['comment']; // Get Comment from form
@@ -26,9 +26,9 @@ if (isset($_POST['submit'])) { // Check press or not Post Comment Button
 <head>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="stylecomments.css">
 
-	<link rel="stylesheet" type="text/css" href="stylecomments.css">
-
+	
 	<title>Comments&Reviews</title>
 </head>
 <body>
